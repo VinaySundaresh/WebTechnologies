@@ -1,0 +1,77 @@
+<!--Resume and form assignmnet with screenshot-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="javascript" href="index.js">
+    </head>
+    <body class="bodytag">
+
+        <div class="reg">
+            <h1 style="text-align: center;">Registration Form</h1>
+
+        </div>
+        <hr>
+        <form class="formtag">
+            <br>
+            <div id="nameId">
+            Name <span style="color: red;">*</span>:<input type="text" name="NameInput" required>
+            </div><br>
+            <div id="Emailid">
+                Email id <span style="color: red;">*</span>:<input type="email" name="emailInput" required>
+            </div>
+            <br>
+            <div id="numberId">
+                Contact No <span style="color: red;">*</span>:<input type="number" name="numInput" required>
+            </div>
+            <br>
+            <div id="dateId">
+                DOB <span style="color: red;">*</span>:<input type="datetime" name="dobInput" required>
+            </div>
+
+            <br>
+            <div id="genderId">
+                Gender :<input type="radio" id="male" name="radiobox" value="male">
+                <label for="Male">Male</label>
+                <input type="radio" id="female" name="radiobox" value="female">
+                <label for="Female">Female</label>
+
+
+            </div>
+            <br>
+            <div id="shiftid">
+                Select Shift :
+                <select>
+                    <option value="MorningShift">Morning</option>
+                    <option value="AfternoonShift">Afternoon</option>
+                    <option value="EneningShift">Evening</option>
+                    <option value="nightshift">Night</option>
+                </select>
+            </div>
+            <br>
+            <div id="technologyId">
+                Select Technologies you know :<br>
+                <input type="checkbox" name="checkname" id="inp1">
+                <label for="inp1">Java</label>
+                <input type="checkbox" name="checkname" id="inp2">
+                <label for="inp2">HTML</label>
+                <input type="checkbox" name="checkname" id="inp3">
+                <label for="inp3">CSS</label>
+                <input type="checkbox" name="checkname" id="inp4">
+                <label for="inp4">javascript</label>
+                <input type="checkbox" name="checkname" id="inp5">
+                <label for="inp5">MySQL</label>
+            </div>
+            <br>
+            <button class="btclass" type="submit" id="submitid">Submit</button>
+            <button class="btclass" type="reset" id="cancelid">Cancel</button>
+
+            
+
+        </form>
+
+    </body>
+
+</html>

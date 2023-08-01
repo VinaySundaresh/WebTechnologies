@@ -1,0 +1,22 @@
+.btclass{
+    background-color: brown;
+    border-radius: 5vh;
+    background-color: darkgoldenrod;
+}
+.formtag{
+   background-color: rgba(204, 210, 11, 0.629);
+   color: black;
+   border-radius: 2vh;
+   margin-left:70vh;
+   padding-left: 20vh;
+   border: 2px solid;
+   width: 70vh;
+   height:auto;
+}
+#submitid{
+background-color: chocolate;
+}
+
+#cancelid{
+    background-color: red;
+}
